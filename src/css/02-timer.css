@@ -1,0 +1,41 @@
+* {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#datetime-picker {
+  margin: 10px 5px 0px 30px;
+  padding: 4px 12px;
+  font-size: 20px;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  border-radius: 2px;
+}
+
+[data-start] {
+  padding: 4px 12px;
+  font-size: 20px;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  border-radius: 2px;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0px 11px;
+}
+
+.value {
+  font-size: 46px;
+  line-height: 42px;
+}
+
+.label {
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+.timer {
+  display: flex;
+  flex-direction: row;
+  margin: 40px 20px;
+}
