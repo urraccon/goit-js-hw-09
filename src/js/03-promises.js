@@ -28,7 +28,7 @@ formContainer.addEventListener('submit', submittedForm => {
   }
 });
 
-function createPromise(position, delay) {
+function createPromise(position, delay, resolve, reject) {
   const shouldResolve = Math.random() > 0.3;
   if (shouldResolve) {
     setTimeout(() => {
